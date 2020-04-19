@@ -1,0 +1,12 @@
+{
+    "products":[{
+        "id": 1,
+        "name" : "Portátil ASUS Prime",
+        "price" : 1200.99
+    },
+    {
+        "id": 2,
+        "name" : "Telemóvel Samsung S20",
+        "price" : 1484.99
+    }]
+}
