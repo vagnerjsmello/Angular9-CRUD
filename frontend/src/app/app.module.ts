@@ -14,6 +14,7 @@ import { FooterComponent } from './components/templates/footer/footer.component'
 import { NavComponent } from './components/templates/nav/nav.component';
 import { HomeComponent } from './components/views/home/home.component';
 import { ProductCrudComponent } from './components/views/product-crud/product-crud.component';
+import { RedDirective } from './directives/red.directive';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ProductCrudComponent } from './components/views/product-crud/product-cr
     FooterComponent,
     NavComponent,
     HomeComponent,
-    ProductCrudComponent
+    ProductCrudComponent,
+    RedDirective
   ],
   imports: [
     BrowserModule,
